@@ -29,15 +29,31 @@ public class TestMain {
 //        ifStatement.explainBoolean();
 //        ifStatement.explainIfStatement();
 
-        ForLoop forLoop = new ForLoop();
+//        ForLoop forLoop = new ForLoop();
 //        forLoop.explainForLoop();
 //        forLoop.explainForLoopWithArrayList();
 //        forLoop.explainWhile();
 
-        MiniProject1 miniProject1 = new MiniProject1();
-        miniProject1.NorthAmerica();
-        miniProject1.KoreanFood();
-        miniProject1.FruitSpec();
+//        MiniProject1 miniProject1 = new MiniProject1();
+//        miniProject1.NorthAmerica();
+//        miniProject1.KoreanFood();
+//        miniProject1.FruitSpec();
+
+//        methods
+//        Methods methods = new Methods();
+//        methods.testMethodOne();
+//        methods.testMethodTwo("Two");
+////        methods.testMethodThree();
+//        System.out.println(methods.testMethodThree());
+////        methods.testMethodFour(3,4);
+//        System.out.println(methods.testMethodFour(3,4));
+
+        FavoriteFood favoriteFood = new FavoriteFood();
+        favoriteFood.method1();
+        favoriteFood.method2("피자");
+        System.out.println(favoriteFood.method3());
+        System.out.println(favoriteFood.method4("피자"));
+
 
     }
 }
