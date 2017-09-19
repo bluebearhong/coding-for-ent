@@ -88,8 +88,11 @@ public class TestMain {
 //        System.out.println(homeWork2.multi());
 //        System.out.println(homeWork2.divide());
 
-        HomeWork3 homeWork3 = new HomeWork3();
-        homeWork3.explainArray();
+//        HomeWork3 homeWork3 = new HomeWork3();
+//        homeWork3.explainArray();
+
+        HomeWork4 homeWork4 = new HomeWork4();
+        homeWork4.lotto();
 
 
     }
